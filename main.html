@@ -8,6 +8,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div>
+	 <h1>MyBookList</h1>
+   <div class="form-group">
+    <form id="book-form">
+        <input type="text" id="title" placeholder="Enter book title" required />
+        <input type="text" id="author" placeholder="Enter author name" required />
+        <input type="text" id="isbn" placeholder="Enter ISBN number" required />
+        <button type="submit" id="submit">Add Book</button>
+    </form>
+</div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN#</th>
+            </tr>
+        </thead>
+        <tbody id="book-list">
+            <!-- Book entries will be added here -->
+        </tbody>
+    </table>
+		</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
